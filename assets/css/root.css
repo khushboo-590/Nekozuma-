@@ -57,3 +57,8 @@
 .fs-43 {
     font-size: var(--text-lg);
 }
+@media(max-width:576px){
+    :root{
+            --text-3xl: 55px;
+    }
+}

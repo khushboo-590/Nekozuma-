@@ -13,7 +13,7 @@ $(document).ready(function () {
         infinite: true,
         speed: 250,
         slidesToShow: 4,
-        // autoplay: true,
+        autoplay: true,
         autoplaySpeed: 2000,
         prevArrow: false,
         nextArrow: false,
@@ -22,6 +22,20 @@ $(document).ready(function () {
 
             {
                 breakpoint: 992,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 576,
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 1
