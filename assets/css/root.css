@@ -1,0 +1,17 @@
+:root {
+    /* ---color--- */
+    --blue-color: #1C2430;
+    --white-color:#FFFFFF;
+    /* --size----- */
+    --text-sm:16px;
+}
+
+.bg-blue {
+    background: var(--blue-color);
+}
+.fs-16{
+    font-size: var(--text-sm);
+}
+.fc-white{
+    color: var(--white-color);
+}
