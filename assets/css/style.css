@@ -119,15 +119,60 @@
 .z-2{
     z-index: 2;
 }
-.ml-120{
-    margin-left: 120px;
+.ml-40{
+    margin-left: 40px;
+}
+.mt-45{
+    margin-top: 45px;
+}
+.max-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+        /* < !-- ---------section-1--------- --> */
+
+
+ .my-file .slick-track {
+     display: flex;
+ }
+ /* .my-file{
+            width: 100%;
+            height: 100px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: lightblue;
+            animation-duration: 2s;
+            animation-fill-mode: forwards;
+        }
+ 
+.right-to-left {
+    left: 100%;
+    animation-name: slideRightToLeft;
 }
 
+.left-to-right {
+    right: 100%;
+    animation-name: slideLeftToRight;}
 
+@keyframes slideRightToLeft {
+    from {
+        left: 100%;
+    }
 
+    to {
+        left: 0;
+    }
+}
 
+@keyframes slideLeftToRight {
+    from {
+        right: 100%;
+    }
 
-
+    to {
+        right: 0;
+    }
+} */
 
 
 
