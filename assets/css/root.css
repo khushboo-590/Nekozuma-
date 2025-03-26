@@ -2,16 +2,36 @@
     /* ---color--- */
     --blue-color: #1C2430;
     --white-color:#FFFFFF;
+    --light-blue:#3586FF;
+    --light-white:#D5E6FF;
+    --dark-blue:#245AAB;
     /* --size----- */
     --text-sm:16px;
+    --text-md:21.6413px;
+    --text-3xl:64px;
 }
 
 .bg-blue {
     background: var(--blue-color);
+}
+.fc-light-blue{
+    color: var(--light-blue);
+}
+.bg-dark-blue{
+    background: var(--dark-blue);
+}
+.fc-light-white{
+    color: var(--light-white);
 }
 .fs-16{
     font-size: var(--text-sm);
 }
 .fc-white{
     color: var(--white-color);
+}
+.fs-64{
+    font-size: var(--text-3xl);
+}
+.fs-21{
+    font-size: var(--text-md);
 }

@@ -5,7 +5,13 @@
 .font-family{
     font-family: "Sarabun", sans-serif;
 }
-
+@font-face {
+    font-family: 'Franklin Gothic Heavy';
+    src: url(/assets/font/libre-franklin.zip) format('woff2'),
+}
+.ff-1{
+        font-family: 'Franklin Gothic Heavy';
+}
 .fw-400{
     font-weight: 400;
 }
@@ -18,6 +24,12 @@
 }
 .lh-21{
     line-height: 21px;
+}
+.lh-73{
+    line-height: 73px;
+}
+.lh-25{
+    line-height: 25px;
 }
 .max-w-1280{
     max-width: 1280px;
@@ -57,14 +69,59 @@
     transform: rotate(-43deg);
 }
 
+.mt-164{
+    margin-top: 164px;
+}
+.mb-144{
+    margin-bottom: 144px;
+}
+.max-w-502{
+    max-width: 502px;
+}
+.mt-43{
+    margin-top: 43px;
+}
+.btn{
+        padding: 8px 24px; 
+        border-radius: 9px;
+}
+.light-img{
+    left: 0;
+    bottom: 0;
+}
+.position-relative{
+    position: relative;
+}
+.position-absolute{
+    position: absolute;
+}
+.max-w-888{
+    max-width: 888px;
+}
+.max-w-1140{
+    max-width: 1140px;
+}
+.py-30{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.letter-spacing{
+            letter-spacing: 0.11em;
+}
 
-
-
-
-
-
-
-
+.rectangle{
+    right: 0;
+    bottom: 0;
+}
+.z-1{
+    z-index: 1;
+}
+.z-2{
+    z-index: 2;
+}
+.ml-120{
+    margin-left: 120px;
+}
 
 
 
