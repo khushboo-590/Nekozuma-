@@ -2,44 +2,64 @@
 @import url(/assets/css/root.css);
 
 
-.font-family{
+.font-family {
     font-family: "Sarabun", sans-serif;
 }
+
 @font-face {
     font-family: 'Franklin Gothic Heavy';
     src: url(/assets/font/libre-franklin.zip) format('woff2'),
 }
-.ff-1{
-        font-family: 'Franklin Gothic Heavy';
+
+.ff-1 {
+    font-family: 'Franklin Gothic Heavy';
 }
-.fw-400{
+
+.fw-400 {
     font-weight: 400;
 }
+
 .fw-500 {
     font-weight: 500;
-}.fw-600 {
+}
+
+.fw-600 {
     font-weight: 600;
-}.fw-700 {
+}
+
+.fw-700 {
     font-weight: 700;
 }
-.lh-21{
+
+.lh-21 {
     line-height: 21px;
 }
-.lh-73{
+
+.lh-73 {
     line-height: 73px;
 }
-.lh-25{
+
+.lh-25 {
     line-height: 25px;
 }
-.lh-49{
+.lh-18{
+    line-height: 18px;
+}
+.lh-49 {
     line-height: 49px;
 }
-.max-w-1280{
+.lh-27{
+    line-height: 27px;
+}
+
+.max-w-1280 {
     max-width: 1280px;
 }
-.gap-32{
+
+.gap-32 {
     gap: 32px;
 }
+
 .menu-lines {
     width: 30px;
     height: 5px;
@@ -72,73 +92,91 @@
     transform: rotate(-43deg);
 }
 
-.mt-164{
+.mt-164 {
     margin-top: 164px;
 }
-.mb-144{
+
+.mb-144 {
     margin-bottom: 144px;
 }
-.max-w-502{
+
+.max-w-502 {
     max-width: 502px;
 }
-.mt-43{
+
+.mt-43 {
     margin-top: 43px;
 }
-.btn{
-        padding: 8px 24px; 
-        border-radius: 9px;
+
+.btn {
+    padding: 8px 24px;
+    border-radius: 9px;
 }
-.light-img{
+
+.light-img {
     left: 0;
     bottom: 0;
 }
-.position-relative{
+
+.position-relative {
     position: relative;
 }
-.position-absolute{
+
+.position-absolute {
     position: absolute;
 }
-.max-w-888{
+
+.max-w-888 {
     max-width: 888px;
 }
-.max-w-1140{
+
+.max-w-1140 {
     max-width: 1140px;
 }
-.py-30{
+
+.py-30 {
     padding-top: 30px;
     padding-bottom: 30px;
 }
-.letter-spacing{
-            letter-spacing: 0.11em;
+
+.letter-spacing {
+    letter-spacing: 0.11em;
 }
 
-.rectangle{
+.rectangle {
     right: 0;
     bottom: 0;
 }
-.z-1{
+
+.z-1 {
     z-index: 1;
 }
-.z-2{
+
+.z-2 {
     z-index: 2;
 }
-.ml-40{
+
+.ml-40 {
     margin-left: 40px;
 }
-.mt-45{
+
+.mt-45 {
     margin-top: 45px;
 }
-.max-auto{
+
+.max-auto {
     margin-left: auto;
     margin-right: auto;
 }
-        /* < !-- ---------section-1--------- --> */
+
+/* < !-- ---------section-1--------- --> */
 
 
- .my-file .slick-track {
-     display: flex;
- }
- /* .my-file{
+.my-file .slick-track {
+    display: flex;
+}
+
+/* .my-file{
             width: 100%;
             height: 100px;
             top: 50%;
@@ -179,18 +217,37 @@
 
 /* --------------section-2---------- */
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
 
-.mt-48{
+.mt-48 {
     margin-top: 48px;
 }
 
+/* -------------section-3----------- */
+.flex-column {
+    flex-direction: column;
+}
 
+.mt-61 {
+    margin-top: 61px;
+}
 
+.mt-36 {
+    margin-top: 36px;
+}
 
+.card {
+    width: 202px;
+    border: none;
+    background: none;
+}
+
+.mb-64{
+    margin-bottom: 64px;
+}
 @media(max-width:992px) {
 
     .nav-link {

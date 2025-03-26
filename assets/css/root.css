@@ -6,8 +6,10 @@
     --light-white:#D5E6FF;
     --dark-blue:#245AAB;
     /* --size----- */
+    --text-sm-1:14px;
     --text-sm:16px;
     --text-md:21.6413px;
+    --text-md-1:24px;
     --text-lg:43px;
     --text-3xl:64px;
 }
@@ -27,6 +29,9 @@
 .fs-16{
     font-size: var(--text-sm);
 }
+.fs-14{
+    font-size: var(--text-sm-1);
+}
 .fc-white{
     color: var(--white-color);
 }
@@ -35,6 +40,9 @@
 }
 .fs-21{
     font-size: var(--text-md);
+}
+.fs-24{
+    font-size: var(--text-md-1);
 }
 .fs-43{
     font-size: var(--text-lg);
