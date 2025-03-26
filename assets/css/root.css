@@ -8,6 +8,7 @@
     /* --size----- */
     --text-sm:16px;
     --text-md:21.6413px;
+    --text-lg:43px;
     --text-3xl:64px;
 }
 
@@ -34,4 +35,7 @@
 }
 .fs-21{
     font-size: var(--text-md);
+}
+.fs-43{
+    font-size: var(--text-lg);
 }
