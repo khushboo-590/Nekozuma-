@@ -197,43 +197,51 @@ html {
 
 /* < !-- ---------silders--------- --> */
 
+
 .slider-container {
-    overflow: hidden;
     width: 100%;
-    white-space: nowrap;
+    overflow: hidden;
     position: relative;
-}
-
-.slider {
     display: flex;
+    flex-direction: column;
 }
 
-.right-to-left {
-    animation: scrollRightToLeft 10s linear infinite;
+.slider-track {
+    display: flex;
+    width: 200%;
 }
 
-.left-to-right {
-    animation: scrollLeftToRight 10s linear infinite;
+.slider-track-1 {
+    animation: slideLeft 10s linear infinite;
 }
 
-@keyframes scrollRightToLeft {
+.slider-track-2 {
+    animation: slideRight 10s linear infinite;
+}
+
+@keyframes slideLeft {
     from {
-        transform: translateX(100%);
+        transform: translateX(0);
     }
 
     to {
-        transform: translateX(-100%);
+        transform: translateX(-50%);
     }
 }
 
-@keyframes scrollLeftToRight {
+@keyframes slideRight {
     from {
-        transform: translateX(-100%);
+        transform: translateX(-50%);
     }
 
     to {
-        transform: translateX(100%);
+        transform: translateX(0);
     }
+}
+
+.slider-track img {
+    width: 12.5%;
+    height: auto;
 }
 
 
