@@ -250,7 +250,9 @@ html {
 .object-cover {
     object-fit: cover;
 }
-
+.h-357{
+    height: 357px;
+}
 /* -------------team----------- */
 .flex-column {
     flex-direction: column;
@@ -387,17 +389,16 @@ html {
         align-items: center;
     }
 
-    .h-200 {
+    .h-357 {
         height: 200px;
     }
-
 }
 
 @media(max-width:768.98px) {
 
 
     .mt-164 {
-        margin-top: 80px;
+        margin-top: 70px;
     }
 
     .mb-144 {
@@ -444,6 +445,9 @@ html {
     .mt-35 {
         margin-top: 0;
     }
+        .light {
+            width: 420px;
+        }
 }
 
 @media(max-width:576.98px) {
@@ -479,7 +483,7 @@ html {
     }
 
     .mt-36 {
-        margin-top: 15px;
+        margin-top: 24px;
     }
 
     .cartoon-img {
@@ -498,6 +502,10 @@ html {
     .mt-56 {
         margin-top: 36px;
     }
+  
+        .rectangle,.light {
+           display: none;
+        }
 
 
 }
