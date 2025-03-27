@@ -1,20 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 @import url(/assets/css/root.css);
 
-
+/* -----------font-family---------- */
 .font-family {
     font-family: "Sarabun", sans-serif;
 }
 
 @font-face {
     font-family: 'Franklin Gothic Heavy';
-    src: url(/assets/font/libre-franklin.zip) format('woff2'),
+    src: url(/assets/font/libre-franklin.zip) ;
 }
 
 .ff-1 {
     font-family: 'Franklin Gothic Heavy';
 }
 
+/* ---------------font-weight--------------- */
 .fw-400 {
     font-weight: 400;
 }
@@ -31,6 +32,7 @@
     font-weight: 700;
 }
 
+/* ---------------line-height---------------- */
 .lh-21 {
     line-height: 21px;
 }
@@ -55,8 +57,34 @@
     line-height: 27px;
 }
 
+
+.max-w-502 {
+    max-width: 502px;
+}
+
+.max-w-888 {
+    max-width: 888px;
+}
+
 .max-w-1280 {
     max-width: 1280px;
+}
+
+.max-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mt-43 {
+    margin-top: 43px;
+}
+
+.mt-164 {
+    margin-top: 164px;
+}
+
+.mb-144 {
+    margin-bottom: 144px;
 }
 
 .gap-32 {
@@ -73,12 +101,12 @@
     border-radius: 10px;
 }
 
-.cursor-pointer {
-    cursor: pointer;
-}
-
 .rotate-42 {
     transform: rotate(42deg);
+}
+
+.rotate-43 {
+    transform: rotate(-43deg);
 }
 
 .z-5 {
@@ -89,34 +117,26 @@
     z-index: 6;
 }
 
-.rotate-43 {
-    transform: rotate(-43deg);
+.z-1 {
+    z-index: 1;
 }
 
-.mt-164 {
-    margin-top: 164px;
+.z-2 {
+    z-index: 2;
 }
 
-.mb-144 {
-    margin-bottom: 144px;
-}
-
-.max-w-502 {
-    max-width: 502px;
-}
-
-.mt-43 {
-    margin-top: 43px;
-}
-
-.btn {
+.connect-btn {
     padding: 8px 24px;
     border-radius: 9px;
 }
 
-.light-img {
-    left: 0;
-    bottom: 0;
+.connect-btn:hover {
+    background: var(--white-color);
+    color: var(--light-blue);
+}
+
+.letter-spacing {
+    letter-spacing: 0.11em;
 }
 
 .position-relative {
@@ -127,34 +147,9 @@
     position: absolute;
 }
 
-.max-w-888 {
-    max-width: 888px;
-}
-
-.max-w-1140 {
-    max-width: 1140px;
-}
-
 .py-30 {
     padding-top: 30px;
     padding-bottom: 30px;
-}
-
-.letter-spacing {
-    letter-spacing: 0.11em;
-}
-
-.rectangle {
-    right: 0;
-    bottom: 0;
-}
-
-.z-1 {
-    z-index: 1;
-}
-
-.z-2 {
-    z-index: 2;
 }
 
 .cartoon-img {
@@ -164,73 +159,30 @@
     bottom: 0;
 }
 
-.max-auto {
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .links:hover {
     color: var(--light-blue);
 }
 
-/* < !-- ---------section-1--------- --> */
+/* < !-- ---------silders--------- --> */
 
 
 .my-file .slick-track {
     display: flex;
 }
 
-/* .my-file{
-            width: 100%;
-            height: 100px;
-            top: 50%;
-            transform: translateY(-50%);
-            background: lightblue;
-            animation-duration: 2s;
-            animation-fill-mode: forwards;
-        }
  
-.right-to-left {
-    left: 100%;
-    animation-name: slideRightToLeft;
-}
 
-.left-to-right {
-    right: 100%;
-    animation-name: slideLeftToRight;}
-
-@keyframes slideRightToLeft {
-    from {
-        left: 100%;
-    }
-
-    to {
-        left: 0;
-    }
-}
-
-@keyframes slideLeftToRight {
-    from {
-        right: 100%;
-    }
-
-    to {
-        right: 0;
-    }
-} */
-
-/* --------------section-2---------- */
+/* --------------story---------- */
 
 .text-center {
     text-align: center;
 }
 
-
 .mt-48 {
     margin-top: 48px;
 }
 
-/* -------------section-3----------- */
+/* -------------team----------- */
 .flex-column {
     flex-direction: column;
 }
@@ -350,12 +302,6 @@
         align-items: center;
     }
 
-    .silder-img {
-        height: 290px;
-        width: 290px;
-
-    }
-
     .mt-164 {
         margin-top: 100px;
     }
@@ -384,12 +330,6 @@
         }
     }
 
-    .silder-img {
-        height: 240px;
-        width: 240px;
-
-    }
-
     .mt-164 {
         margin-top: 70px;
     }
@@ -414,4 +354,48 @@
 
 }
 
-@media(max-width:375.98px) {}
+/* .slider-container {
+    overflow: hidden;
+    width: 100%;
+    white-space: nowrap;
+    position: relative;
+}
+
+.slider {
+    display: flex;
+    width: max-content;
+}
+
+.slider img {
+    width: 200px;
+    height: auto;
+}
+
+.right-to-left {
+    animation: scrollRightToLeft 10s linear infinite;
+}
+
+.left-to-right {
+    animation: scrollLeftToRight 10s linear infinite;
+}
+
+@keyframes scrollRightToLeft {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes scrollLeftToRight {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(100%);
+    }
+}
+ */

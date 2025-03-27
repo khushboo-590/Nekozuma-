@@ -23,7 +23,7 @@ $(document).ready(function () {
             {
                 breakpoint: 992,
                 settings: {
-                    slidesToShow: 4,
+                    slidesToShow: 3,
                     slidesToScroll: 1
                 }
             },
@@ -48,4 +48,10 @@ $(document).ready(function () {
 
     });
 });
+
+
+// document.querySelectorAll('.slider').forEach(slider => {
+//     let clone = slider.innerHTML;
+//     slider.innerHTML += clone; 
+// });
 
