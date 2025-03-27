@@ -289,9 +289,11 @@ html {
 .mb-64 {
     margin-bottom: 64px;
 }
-.mt-35{
+
+.mt-35 {
     margin-top: 35px;
 }
+
 /* --------------footer-------- */
 .bootom-0 {
     top: 0;
@@ -315,7 +317,7 @@ html {
 }
 
 
-@media(max-width:992.98px) {
+@media(max-width:991.98px) {
 
     .nav-link {
         display: flex !important;
@@ -438,7 +440,8 @@ html {
     .mt-56 {
         margin-top: 46px;
     }
-    .mt-35{
+
+    .mt-35 {
         margin-top: 0;
     }
 }
