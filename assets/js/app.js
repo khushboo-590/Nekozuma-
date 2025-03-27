@@ -7,8 +7,3 @@ const navbarbtn = () => {
 }
 
 
-
- document.querySelectorAll('.slider').forEach(slider => {
-    let clone = slider.innerHTML;
-    slider.innerHTML += clone;  });
-
