@@ -209,11 +209,11 @@ html {
 }
 
 .right-to-left {
-    animation: scrollRightToLeft 20s linear infinite;
+    animation: scrollRightToLeft 10s linear infinite;
 }
 
 .left-to-right {
-    animation: scrollLeftToRight 20s linear infinite;
+    animation: scrollLeftToRight 10s linear infinite;
 }
 
 @keyframes scrollRightToLeft {
@@ -250,9 +250,7 @@ html {
 .object-cover {
     object-fit: cover;
 }
-.h-357{
-    height: 357px;
-}
+
 /* -------------team----------- */
 .flex-column {
     flex-direction: column;
